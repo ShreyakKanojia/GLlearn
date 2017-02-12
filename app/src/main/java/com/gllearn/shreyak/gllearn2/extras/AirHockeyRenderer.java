@@ -145,6 +145,9 @@ public class AirHockeyRenderer implements GLSurfaceView.Renderer {
         // Draw the second mallet red.
         glUniform4f(uColorLocation, 1.0f, 0.0f, 0.0f, 1.0f);
         glDrawArrays(GL_POINTS, 9, 1);
+
+        //test change for git
+
     }
 
     @Override
